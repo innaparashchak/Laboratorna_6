@@ -1,0 +1,13 @@
+"""
+Дано два вектори x(x1, y1, z1) та y(x2, y2, z2). Знайти векторний добуток векторів.
+"""
+x1 = float(input("х1: "))
+y1 = float(input("y1: "))
+z1 = float(input("z1: "))
+x2 = float(input("х2: "))
+y2 = float(input("y2: "))
+z2 = float(input("z2: "))
+x = y1*z2 - z1*y2
+y = x1*z2 - z1*x2
+z = x1*y2 - y1*x2
+print('x = {0}'.format(x),'y = {0}'.format(y), 'z = {0}'.format(z))
